@@ -1,0 +1,44 @@
+.dashboard-container
+{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    min-height: 100vh;
+   
+    background: linear-gradient(#CCC,#000);
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.dashboard-content
+{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+
+    background-color: #777;
+    color:#FFF;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    padding: 10px;
+    min-width: 8%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button:hover
+{
+    box-shadow: 2px 2px 5px  #CCC;
+}
